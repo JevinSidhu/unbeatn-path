@@ -59,19 +59,23 @@ div a:visited {
 }
 
 div.copy {
-    text-align: left;
+    text-align: right;
     text-transform: lowercase;
     width: 100%;
     position: absolute;
     bottom: 0px;
     left: 0px;
-    padding: 40px 20px 0px 20px;
-    background: -webkit-linear-gradient( bottom , rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) 60%, transparent 100%);
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) 60%, transparent 100%);
+    padding: 40px 20px 20px 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2) 60%, transparent 100%);
+}
+
+.link-about {
+  text-decoration:none;
+  color:#000;
 }
 
 .jumbotron .row a.btn {
-  margin-top:15pt;
+  margin-top:2vh;
   border: 3px solid #202020;
   border-radius: 0px;
   padding-left: 50px;
@@ -106,7 +110,7 @@ div.copy {
 }
 
 .topper {
-  margin-top: 100px;
+  margin-top: 20vh;
 }
 
 .logo {
@@ -205,20 +209,13 @@ section.mailinglist ul.social li a {
     height: 45px;
 }
 
-.navbar {
-  background-color:#fff;
-  border-color: #fff;
-}
-
-.navbar-right {
-  margin-left: 10px;
+.logo-about {
+  margin-bottom:4vh;
 }
 
 .about-text h1 {
-  font-size: 43px;
+  font-size: 63px;
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 25px;
 }
 
@@ -229,6 +226,27 @@ section.mailinglist ul.social li a {
   -webkit-font-smoothing: antialiased;
 
 }
+
+.jumbo-about {
+  margin-top:20vh;
+}
+
+.bold {
+  font-weight:700;
+}
+
+.jumbotron .row a.article-link {
+  text-decoration:none;
+  color:#F06161;
+}
+
+.jumbotron .row a.article-link:hover {
+  text-decoration:none;
+  color:#EB786B;
+  background-color: #fff;
+  border-color:#fff;
+}
+
 
 @media(max-width: 400px) {
 
