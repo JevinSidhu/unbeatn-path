@@ -34,8 +34,9 @@
 
 .body-writing{
     font-family: "PT Serif";
+    font-size:20px;
     max-width:775px;
-    line-height:27px;
+    line-height:1.5;
     margin-left:auto;
     margin-right:auto;
     color: rgb(51, 51, 51);
@@ -43,7 +44,6 @@
 }
 
 .bio-text {
-    font-size:20px;
     font-weight: 400;
     font-style: italic;
     line-height:30px;
@@ -51,7 +51,6 @@
 
 .main-text {
     color: rgb(51, 51, 51);
-    font-size:18px;
 }
 
 .minor-header {
@@ -69,7 +68,7 @@
 }
 
 .article-img{
-    margin-top:30px;
+    margin-top:50px;
     margin-bottom:50px;
     width:500px;
     max-height:350px;
@@ -77,28 +76,21 @@
 
 /* Media Queries */
 @media screen and (max-width:700px) {
-    .text {
+    .body-writing {
         max-width:450px;
     }
     
 }
 
 @media screen and (max-width: 600px) {
-    .text {
+    .body-writing {
         max-width:350px;
     }
     
 }
 
-@media screen and (max-width:555px) {
-    .header{
-        margin-top:185px;
-    }
-    
-}
-
 @media screen and (max-width:480px) {
-    .text {
+    .body-writing {
         max-width:300px;
     }
     
