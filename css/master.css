@@ -1,7 +1,6 @@
 body {
   font-family: 'Lato';
   overflow-x: hidden;
-  
 }
 
 h1 {
@@ -59,14 +58,14 @@ div a:visited {
 }
 
 div.copy {
-    text-align: right;
+    text-align: center;
     text-transform: lowercase;
     width: 100%;
     position: absolute;
     bottom: 0px;
     left: 0px;
-    padding: 40px 20px 20px 20px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2) 60%, transparent 100%);
+    padding: 40px 20px 10px 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.55) 50%, transparent 100%);
 }
 
 .link-about {
@@ -91,7 +90,6 @@ div.copy {
   background-color: #000;
   border-color: #000;
   color:#fff;
-
 }
 
 .works {
@@ -129,6 +127,15 @@ div.copy {
   margin-right: -15px;
 }
 
+.hover-zoom {
+  -webkit-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out;
+  background-size: 150%;
+}
+
+.hover-zoom:hover {
+  background-size: 175%;
+}
 
 .info  {
   position: relative;
@@ -162,39 +169,6 @@ div.copy {
     top: -50px;
 }
 
-.mailingList form div.inputContainer {
-    background: #efecec;
-    width: 240px;
-    display: block;
-    margin: 0 auto 6px;
-}
-
-.mailingList form div.inputContainer input {
-    padding: 10px 20px;
-    text-transform: uppercase;
-    background: transparent;
-    border: none;
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    color: #e0e0e4;
-    font-size: 14px;
-}
-
-.mailingList button.btn {
-    background: #363636;
-    border: solid 1px #363636;
-    border-radius: 0px;
-    color: white;
-    height: 40px;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 0 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    line-height: 39px;
-}
-
 ul.social li {
     width: 24px;
     height: 24px;
@@ -202,11 +176,6 @@ ul.social li {
     font-size: 25px;
     line-height: 24px;
     margin: 0 6px;
-}
-
-section.mailinglist ul.social li a {
-    color: #363636;
-    height: 45px;
 }
 
 .logo-about {
@@ -224,7 +193,6 @@ section.mailinglist ul.social li a {
   font-size: 20px;
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
-
 }
 
 .jumbo-about {
@@ -249,10 +217,8 @@ section.mailinglist ul.social li a {
 
 
 @media(max-width: 400px) {
-
-#about {
-  margin-top: -100px;
-  max-width: 325px;
-}
-
+  #about {
+    margin-top: -100px;
+    max-width: 325px;
+  }
 }
