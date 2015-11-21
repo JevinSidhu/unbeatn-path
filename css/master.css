@@ -1,3 +1,7 @@
+html {
+  max-width:100%;
+}
+
 body {
   font-family: 'Lato';
   overflow-x: hidden;
@@ -129,12 +133,12 @@ div.copy {
 
 .hover-zoom {
   -webkit-transition: all 0.5s ease-in-out;
-          transition: all 0.5s ease-in-out;
-  background-size: 150%;
+  transition: all 0.5s ease-in-out;
+  background-size: 170%;
 }
 
 .hover-zoom:hover {
-  background-size: 175%;
+  background-size: 200%;
 }
 
 .info  {
@@ -221,4 +225,17 @@ ul.social li {
     margin-top: -100px;
     max-width: 325px;
   }
+}
+
+@media(max-width: 990px) {
+  .hover-zoom {
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background-size: 230%;
+  }
+  
+  .hover-zoom:hover {
+    background-size: 250%;
+  }
+
 }
