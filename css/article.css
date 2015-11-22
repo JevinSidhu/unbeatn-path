@@ -130,6 +130,10 @@ a:hover, a:visited, a:link, a:active {
     color: rgb(51, 51, 51);
 }
 
+.links:hover{
+    color: rgb(51, 51, 51);
+}
+
 .links:visited {
     color: rgb(51, 51, 51);
 }
