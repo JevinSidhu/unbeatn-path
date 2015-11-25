@@ -123,17 +123,21 @@ div.copy {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 20px;
-  margin-right: -15px;
+  margin-right:-15px;
+}
+
+.size1 {
+  height: 480px;
 }
 
 .hover-zoom {
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  background-size: 170%;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-size: 800px 600px;
 }
 
 .hover-zoom:hover {
-  background-size: 190%;
+  background-size: 900px 700px;
 }
 
 .info  {
@@ -153,14 +157,6 @@ div.copy {
   line-height: 26px;
   max-width: 700px;
   margin: 100px auto 20px;
-}
-
-.size1 {
-  height: 480px;
-}
-
-.size2 {
-  height: 350px;
 }
 
 #read {
@@ -214,23 +210,9 @@ ul.social li {
   border-color:#fff;
 }
 
-
 @media(max-width: 400px) {
   #about {
     margin-top: -100px;
     max-width: 325px;
   }
-}
-
-@media(max-width: 990px) {
-  .hover-zoom {
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    background-size: 230%;
-  }
-  
-  .hover-zoom:hover {
-    background-size: 250%;
-  }
-
 }
