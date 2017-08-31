@@ -18,6 +18,17 @@ h3 {
   margin-top:5px;
 }
 
+i {
+  text-decoration:none;
+  color:#000;
+}
+
+i:hover {
+  background-color: #fff;
+
+}
+
+
 a.btn:visited {
   color: #000;
 }
@@ -71,6 +82,7 @@ div.copy {
     padding: 40px 20px 10px 20px;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.55) 50%, transparent 100%);
 }
+
 
 .link-about {
   text-decoration:none;
@@ -133,11 +145,21 @@ div.copy {
 .hover-zoom {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  background-size: 800px 600px;
+  background-size: 857px 571px;
 }
 
 .hover-zoom:hover {
-  background-size: 900px 700px;
+  background-size: 834px 556px;
+}
+
+.hover-zoom-12 {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-size: 1378px 930px;
+}
+
+.hover-zoom-12:hover {
+  background-size: 1356px 915px;
 }
 
 .info  {
